@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link  rel = " stylesheet " href = "estilos.css">
+    <title>Formulario web</title>
+</head>
+<body>
+    <section class="section">
+        <div class="son">
+        <h1>Formulario de inscripcion</h1><br>
+                <div>
+                    <label for="nombre">Nombre(s):</label>
+                    <input class="tr" id="nombre" type="text" name="nombre"
+                    size="30" maxsize="50" value="Escribe tu nombre...">
+                </div><br>
+                <div>
+                    <label for="apellidos">Apellidos:</label>
+                    <input class="tr" id="apellidos" type="text" name="apellidos">
+                </div><br>
+                <div>
+                    <label for="especialidad">Especialidad:</label>
+                    <select class="tu" name="especialidad">
+                        <option value="co">Construccion</option>
+                        <option value="el">Electronica</option>
+                        <option value="al">Alimentos</option>
+                        <option value="co">Contabilidad</option>
+                        <option value="pro">Programacion</option>
+                        <option value="lo">Logistica</option>
+                        <option value="" selected="selected">Selecciona</option>
+                    </select>
+                </div><br>
+                <div>Turno:<br>
+                    <input type="checkbox" id="matutino" name="Turno" value="matutino">
+                    <label for="matutino">Matutino</label><br>
+                    <input type="checkbox" id="vespertino" name="Turno" value="vespertino">
+                    <label for="vespertino">Vespertino</label><br>
+                </div><br>
+                <div>
+                    <label for="semestre">Semestre:</label>
+                    <select class="tu" name="semestre">
+                        <option value="1">1º</option>
+                        <option value="2">2º</option>
+                        <option value="3">3º</option>
+                        <option value="4">4º</option>
+                        <option value="5">5º</option>
+                        <option value="6">6º</option>
+                        <option value="" selected="selected">Selecciona</option>
+                    </select>
+                </div><br>
+                <div>Sexo:<br>
+                    <input type="radio" id="masculino" name="sexo" value="masculino">
+                    <label for="masculino">Masculino</label><br>
+                    <input type="radio" id="femenino" name="sexo" value="femenino">
+                    <label for="femenino">Femenino</label><br>
+                </div><br>
+                <div>
+                    <label for="extra">Actividad Extraescolar:</label>
+                    <select class="tu" name="extra">
+                        <option value="da">Danza</option>
+                        <option value="aj">Ajedrez</option>
+                        <option value="da">Voleibol</option>
+                        <option value="da">Basquetbol</option>
+                        <option value="da">Futbol</option>
+                        <option value="da">Rondalla</option>
+                        <option value="" selected="selected">Selecciona</option>
+                    </select>
+                </div><br>
+                <div>
+                    <input class="one" type="submit" name="submit" value="Enviar formulario">
+                    <input class="two" type="reset" name="reset" value="Limpiar formulario">
+                </div>
+        </div>
+    </section>
+</body>
+</html>
